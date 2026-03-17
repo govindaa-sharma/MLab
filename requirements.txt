@@ -1,0 +1,25 @@
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+python-dotenv
+
+# AI / LangChain (your setup)
+langchain
+langchain-core
+langchain-community
+langchain-google-genai
+
+# HTTP requests
+requests
+httpx
+
+# Vector DB (if you used it)
+faiss-cpu
+
+# Utilities
+numpy
+pandas
+
+# For Streamlit UI (if same repo)
+streamlit
