@@ -4,7 +4,7 @@ import pandas as pd
 import plotly.graph_objects as go
 
 # ── CONFIG ────────────────────────────────────────────────────────────────────
-API_BASE = "http://127.0.0.1:8000"
+API_BASE = "https://mlab-thit.onrender.com"
 
 st.set_page_config(
     page_title="MLab Dashboard",
