@@ -362,6 +362,3 @@ Signal extraction and diagnostics run the same computation every time from raw m
 
 ---
 
-## License
-
-MIT
