@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: experiment_ai
+Version: 0.1.0
+Summary: SDK for logging ML experiments
+Requires-Python: >=3.8
+Requires-Dist: requests>=2.28.0
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

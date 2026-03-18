@@ -300,8 +300,8 @@ st.markdown("""
 <div style='margin-bottom:1.5rem;padding-bottom:1rem;
             border-bottom:1px solid rgba(99,179,237,0.1);'>
   <div class='header-brand'>
-    <span class='live-dot'></span>MLab
-    <span style='color:#38bdf8;font-weight:400;'> Dashboard</span>
+    <span class='live-dot'></span>Epoché
+    
   </div>
   <div class='header-sub'>Experiment Tracker · v1.0</div>
 </div>

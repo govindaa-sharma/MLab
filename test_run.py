@@ -66,18 +66,35 @@
 # exp.end()
 
 
+# from experiment_ai import Experiment
+
+# exp = Experiment("demo", "overfitting_test")
+
+# exp.log_params({
+#     "learning_rate": 0.01,
+#     "optimizer": "adam"
+# })
+
+# metrics = [0.70,0.80,0.83,0.81,0.77]
+
+# for i,v in enumerate(metrics):
+#     exp.log_metric("val_accuracy", v, step=i)
+
+# exp.end()
+from dotenv import load_dotenv
+load_dotenv()
+
 from experiment_ai import Experiment
 
-exp = Experiment("demo", "overfitting_test")
+exp = Experiment("demo", "unstable data 2")
 
 exp.log_params({
-    "learning_rate": 0.01,
+    "learning_rate": 0.7,
     "optimizer": "adam"
 })
 
-metrics = [0.70,0.80,0.83,0.81,0.77]
-
-for i,v in enumerate(metrics):
-    exp.log_metric("val_accuracy", v, step=i)
+metrics = [0.70, 0.9, 0.88, 0.64, 0.80]
+for i, v in enumerate(metrics):
+    exp.log_metric("val_accuracy", v, step=i+1)
 
 exp.end()
